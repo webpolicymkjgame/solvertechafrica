@@ -7,10 +7,13 @@ import imgMkj from './assets/banner.png';
 import googlePlayIcon from './assets/google-play.png';
 
 import loan from './assets/app/loan.png';
-import autoclick from './assets/app/autoclick.png';
-import antithieft from './assets/app/antithieft.png';
+import assistivetouch from './assets/app/assis.png';
+import control from './assets/app/control.png';
+import currency from './assets/app/currency.png';
 import money from './assets/app/money.png';
-import recovery from './assets/app/recovery.png';
+import prank from './assets/app/prank.png';
+import qr from './assets/app/qr.png';
+
 
 import PolicyPage from './PolicyPage';
 
@@ -45,29 +48,39 @@ function Header() {
 function HomePage() {
   const games = [
     {
-      name: 'Personal Loan EMI Tool',
+      name: 'Loan',
       image: loan,
-      link: 'https://play.google.com/store/apps/details?id=com.loancalculator.emicalculator.financialtools.autoloan.loantracker'
+      link: 'https://play.google.com/store/apps/details?id=com.emicalculator.personalloan.investment.financialtools.loanplanner'
     },
     {
-      name: 'Money Tracker: Expense Planner',
+      name: 'Money',
       image: money,
-      link: 'https://play.google.com/store/apps/details?id=com.moneymanager.expensetracker.moneytracker.spendingtracker.budgetplanner.walletmanager'
+      link: 'https://play.google.com/store/apps/details?id=com.moneymanager.expensetracker.moneytracker.budgetplanner'
     },
     {
-      name: 'Anti-theft Phone Alert',
-      image: antithieft,
-      link: 'https://play.google.com/store/apps/details?id=com.phone.antitheft.donottouch.alarm.thief'
+      name: 'Assistive Touch',
+      image: assistivetouch,
+      link: 'https://play.google.com/store/apps/details?id=com.assistivetouch.homebutton.easytouch.button.settings.home'
     },
     {
-      name: 'Data Recovery: Photo & File',
-      image: recovery,
-      link: 'https://play.google.com/store/apps/details?id=com.recovery.datarecovery.alldatarecovery.deletedphotorecovery.filerecovery'
+      name: 'Control Center',
+      image: control,
+      link: 'https://play.google.com/store/apps/details?id=com.tools.control.center.simplecontrol.assistivetouch.controlcenter'
     },
     {
-      name: 'Auto Clicker - Fast Auto Tap',
-      image: autoclick,
-      link: 'https://play.google.com/store/apps/details?id=com.autoclicker.auto.tap.automatictap.clicker'
+      name: 'Currency Converter',
+      image: currency,
+      link: 'https://play.google.com/store/apps/details?id=com.moneyexchange.currencyconverter.convertmoney.exchangerates'
+    },
+    {
+      name: 'Prank Call',
+      image: prank                      ,
+      link: 'https://play.google.com/store/apps/details?id=com.videocall.fakecallgame.fakecaller.prank.fungame.prankfriend'
+    },
+    {
+      name: 'Qr Code',
+      image: qr,
+      link: 'https://play.google.com/store/apps/details?id=com.barcodescanner.qrscanner.qrcodescanner.qrcodereader.barcode'
     }
 
   ];
