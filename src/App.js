@@ -93,7 +93,7 @@ function HomePage() {
           <div className="about-text-container">
             <h2 className="highlight-title">Welcome to Solvertech Africa Studio</h2>
             <p className="about-text">Solvertech Africa Studio is a mobile app development studio dedicated to creating innovative, high-quality, and user-friendly applications.
-              Our official website serves as a showcase for all the apps developed by Zed App Mobile – from casual games and productivity tools to educational and lifestyle apps.
+              Our official website serves as a showcase for all the apps developed by Solvertech Africa Mobile – from casual games and productivity tools to educational and lifestyle apps.
             </p>
           </div>
           <div className="about-img-container">
